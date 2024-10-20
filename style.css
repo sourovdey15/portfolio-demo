@@ -3,6 +3,9 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.header {
+    background-color: #FFF8F3;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -10,7 +13,7 @@ nav {
 }
 .header h2 {
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 50px;
 }
 .header span {
@@ -37,7 +40,43 @@ nav {
     font-weight: 700;
     padding: 15px 25px ;
     border-radius: 5px;
+    border: 0;
 }
 .header ul li .btn:hover {
     background-color: #cd5a07;
+}
+.banner {
+    padding: 30px 30px 30px 150px ;
+    float: left;
+    padding: 50px 250px 0 200px;
+    width: 40%;
+}
+.banner .btn {
+    background-color: #fd6e0a;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 23px ;
+    border-radius: 5px;
+    border: 2px solid #fd6e0a;
+}
+.banner .btn:hover {
+    background-color: #FFF8F3;
+    border: 2px solid #fd6e0a;
+    color: #fd6e0a;
+    padding: 13px 23px ;
+}
+.banner .btn2 {
+    color: #fd6e0a;
+    background-color: #FFF8F3;
+    border: 2px solid #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 23px ;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.banner .btn2:hover {
+    background-color: #FD6E0A;
+    color: #FFF8F3;
 }
