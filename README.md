@@ -1,1 +1,1 @@
-# this is a demo site
+# This is a demo site
