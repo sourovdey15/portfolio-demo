@@ -6,14 +6,15 @@ body {
 /* Header and Nav Area */
 .header {
     background-color: #FFF8F3;
-    background-image: url(images/header_bg.png), url('../images/developer.png');;
+    background-image: url(images/header_bg.png), url(images/developer.png) ;
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    background-size: 50%, 80px;
 }
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
+    padding: 0px 200px;
 }
 .header h2 {
     text-transform: capitalize;
@@ -51,16 +52,17 @@ nav {
 }
 /* Banner and greeting Area */
 .banner {
-    padding: 30px 30px 30px 150px ;
     float: left;
-    padding: 50px 250px 0 200px;
+    padding: 20px 150px 0 200px;
     width: 40%;
+
+
 }
 .banner .greeting-area {
     text-transform: capitalize;
     font-size: 40px;
     color: #3f3f3f;
-    margin-bottom: -25px;
+    margin-bottom: -15px;
 }
 .banner .name-area {
     text-transform: capitalize;
@@ -99,4 +101,8 @@ nav {
 .banner .btn2:hover {
     background-color: #FD6E0A;
     color: #FFF8F3;
+}
+.banner-img {
+    width: 400px;
+    margin-bottom: -5px;
 }
