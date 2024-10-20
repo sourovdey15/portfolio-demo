@@ -1,4 +1,43 @@
 body {
     margin: 0 ;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+.header h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 50px;
+}
+.header span {
+    color: #FD6E0A;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.header ul li {
+    margin-left: 40px;
+}
+.header ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size:20px;
+    color: #525252;
+}
+.header ul li .btn {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 700;
+    padding: 15px 25px ;
+    border-radius: 5px;
+}
+.header ul li .btn:hover {
+    background-color: #cd5a07;
 }
