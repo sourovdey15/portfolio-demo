@@ -123,7 +123,7 @@ nav {
     font-weight: 700;
     font-size: 40px;
 }
-.about-area > p, h4{
+.about-area p, h4{
     color: #838383;
     font-weight: normal;
 }
@@ -134,4 +134,20 @@ nav {
 .info-cointainer .about-info p {
     font-weight: bold;
     color: #151515;
+}
+/* Skill Area Start */
+.skill-area h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
+}
+.skill-area {
+    padding: 100px;
+}
+.main-skills {
+    display: flex;
+}
+.skill-list {
+    padding: 30px;
+    text-align: left;
 }
