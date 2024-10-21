@@ -91,7 +91,7 @@ nav {
 .dwn {
     padding-right: 5px;
 }
-.banner .btn2 {
+.btn2 {
     color: #fd6e0a;
     background-color: #FFF8F3;
     border: 2px solid #fd6e0a;
@@ -101,7 +101,7 @@ nav {
     border-radius: 5px;
     margin-left: 20px;
 }
-.banner .btn2:hover {
+.btn2:hover {
     background-color: #FD6E0A;
     color: #FFF8F3;
 }
@@ -186,7 +186,7 @@ footer {
     padding: 130px 230px ;
     gap: 50px;
 }
-.cntact-area {
+.footer-cols  {
     width: 50%;
 }
 .cntact-area h3, .msg-area h3  {
@@ -200,6 +200,18 @@ footer {
 .contact-form ul li {
     list-style: none;
     padding: 10px 0;
-    
- 
+}
+.contact-form input, textarea {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #ffffff;
+    width: 100%;
+}
+.cradit-area {
+    background-color: #FFF8F3;
+    text-align: center;
+    margin-top: -22px;
+    padding-bottom: 20px;
 }
