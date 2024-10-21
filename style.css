@@ -88,6 +88,9 @@ nav {
     color: #fd6e0a;
     padding: 13px 23px ;
 }
+.dwn {
+    padding-right: 5px;
+}
 .banner .btn2 {
     color: #fd6e0a;
     background-color: #FFF8F3;
@@ -165,7 +168,7 @@ nav {
     font-size: 25px;
     color: #383838;
 }
-.resume-area p {
+.resume-area p, .cntact-area p {
     color: #8b8b8b;
 }
 .resume-area h2 {
@@ -175,4 +178,28 @@ nav {
 }
 .resume-items h4 {
     color: #3f3f3f;
+}
+/* fotter area style */
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px ;
+    gap: 50px;
+}
+.cntact-area {
+    width: 50%;
+}
+.cntact-area h3, .msg-area h3  {
+    font-size:30px ;
+}
+.social-links img {
+    padding-right: 20px;
+    width: 20px;
+}
+/* contact form  */
+.contact-form ul li {
+    list-style: none;
+    padding: 10px 0;
+    
+ 
 }
